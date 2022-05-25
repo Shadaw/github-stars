@@ -1,0 +1,58 @@
+.container {
+  width: 100%;
+  max-width: 87rem;
+  height: 9.1rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 3.6rem 3.4rem;
+  font-size: 1.6rem;
+  background: transparent;
+  outline: none;
+}
+
+.container input::placeholder {
+  color: #4F4F4F;
+}
+
+.container button {
+  border: none;
+  background: transparent;
+  margin-right: 3.4rem;
+  height: min-content;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.outline {
+  width: 77.4rem;
+  height: 2.7rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #BABABA;
+}
+
+.outline input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.6rem;
+}
+
+.outline input::placeholder {
+  color: #4F4F4F;
+}
+
+.outline button {
+  border: none;
+  background: transparent;
+  height: min-content;
+  cursor: pointer;
+}

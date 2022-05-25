@@ -1,0 +1,56 @@
+
+.userInfo {
+  width: 242px;
+  margin-top: 32px;
+}
+
+.userInfo div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #4b4ca8;
+  padding: 2.7rem;
+  border-top-left-radius: 5px;
+}
+
+.userInfo div:first-child h2 {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  margin-top: 17px;
+  text-align: center;
+}
+
+.userInfo div:first-child p {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.userInfo div:not(:first-child) {
+  background: #5253b9;
+  border-bottom-left-radius: 5px;
+  padding: 32px 25px;
+}
+
+.userInfo div:not(:first-child) p {
+  margin-bottom: 3.3rem;
+}
+
+.userInfo div:not(:first-child) p,
+.userInfo div:not(:first-child) ul li {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.4rem;
+  list-style-type: none;
+}
+
+.userInfo div:not(:first-child) ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.userInfo div:not(:first-child) ul li + li {
+  margin-top: 16px;
+}

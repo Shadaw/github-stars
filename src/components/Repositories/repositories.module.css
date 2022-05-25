@@ -1,0 +1,12 @@
+.repositories {
+  width: 90.2rem;
+  height: 100%;
+  min-height: 70rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.25);
+  padding: 32px;
+}
+
+.repositories div + div {
+  margin-top: 33px;
+}
