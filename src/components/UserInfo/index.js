@@ -12,7 +12,9 @@ export const UserInfo = ({ user, orgs }) => {
       <p>{user.login}</p>
     </div>
     <div>
-      <p>{user.bio}</p>
+      {!!user.info && (
+        <p>{user.bio}</p>
+      )}
       <ul>
         {!!orgs.length && (
           <li>
