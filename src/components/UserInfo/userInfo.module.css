@@ -49,6 +49,11 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  white-space: nowrap;
+}
+
+.userInfo div:not(:first-child) ul li svg {
+  min-width: 20px;
 }
 
 .userInfo div:not(:first-child) ul li + li {

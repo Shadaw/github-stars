@@ -12,14 +12,15 @@ export const UserInfo = ({ user, orgs }) => {
       <p>{user.login}</p>
     </div>
     <div>
-      {!!user.info && (
+      {user.bio && (
         <p>{user.bio}</p>
       )}
       <ul>
         {!!orgs.length && (
           <li>
             <Icon icon="person" />
-            {orgs.map(org => `@${org.login}`).join(' ')}
+            {orgs.map(org => `@${org.login}`).join(' ').substr(0, 20)}
+            ...
           </li>
         )}
         {user.location && (
